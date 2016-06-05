@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "CalculatorViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,9 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] ;
-    // Override point for customization after application launch.
-    
-    UIViewController *test = [[UIViewController alloc]  initWithNibName:@"CalculatorViewController" bundle:nil];
+    CalculatorViewController *test = [[CalculatorViewController alloc]  initWithNibName:@"CalculatorViewController" bundle:nil];
     UINavigationController *nav = [[UINavigationController alloc]   initWithRootViewController:test];
     self.window.rootViewController = nav;
 

@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		182B86381D03C2320071F29B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 182B86371D03C2320071F29B /* main.m */; };
 		182B863B1D03C2320071F29B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 182B863A1D03C2320071F29B /* AppDelegate.m */; };
-		182B863E1D03C2320071F29B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182B863D1D03C2320071F29B /* ViewController.m */; };
 		182B86431D03C2320071F29B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182B86421D03C2320071F29B /* Assets.xcassets */; };
 		182B86511D03C2320071F29B /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182B86501D03C2320071F29B /* CalculatorTests.m */; };
 		182B865C1D03C2320071F29B /* CalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182B865B1D03C2320071F29B /* CalculatorUITests.m */; };
 		182B866C1D03CB0A0071F29B /* CalculatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182B866B1D03CB0A0071F29B /* CalculatorViewController.xib */; };
+		182B866E1D03CDF50071F29B /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182B866D1D03CDF50071F29B /* CalculatorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,6 @@
 		182B86371D03C2320071F29B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		182B86391D03C2320071F29B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		182B863A1D03C2320071F29B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		182B863C1D03C2320071F29B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		182B863D1D03C2320071F29B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		182B86421D03C2320071F29B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		182B86471D03C2320071F29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		182B864C1D03C2320071F29B /* CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +47,8 @@
 		182B865B1D03C2320071F29B /* CalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorUITests.m; sourceTree = "<group>"; };
 		182B865D1D03C2320071F29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		182B866B1D03CB0A0071F29B /* CalculatorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CalculatorViewController.xib; path = Calculator/CalculatorViewController.xib; sourceTree = "<group>"; };
+		182B866D1D03CDF50071F29B /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		182B866F1D03CE2F0071F29B /* CalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +102,8 @@
 			children = (
 				182B86391D03C2320071F29B /* AppDelegate.h */,
 				182B863A1D03C2320071F29B /* AppDelegate.m */,
-				182B863C1D03C2320071F29B /* ViewController.h */,
-				182B863D1D03C2320071F29B /* ViewController.m */,
+				182B866F1D03CE2F0071F29B /* CalculatorViewController.h */,
+				182B866D1D03CDF50071F29B /* CalculatorViewController.m */,
 				182B86421D03C2320071F29B /* Assets.xcassets */,
 				182B86471D03C2320071F29B /* Info.plist */,
 				182B86361D03C2320071F29B /* Supporting Files */,
@@ -266,8 +266,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				182B863E1D03C2320071F29B /* ViewController.m in Sources */,
 				182B863B1D03C2320071F29B /* AppDelegate.m in Sources */,
+				182B866E1D03CDF50071F29B /* CalculatorViewController.m in Sources */,
 				182B86381D03C2320071F29B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
