@@ -10,11 +10,10 @@
 		182B86381D03C2320071F29B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 182B86371D03C2320071F29B /* main.m */; };
 		182B863B1D03C2320071F29B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 182B863A1D03C2320071F29B /* AppDelegate.m */; };
 		182B863E1D03C2320071F29B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182B863D1D03C2320071F29B /* ViewController.m */; };
-		182B86411D03C2320071F29B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182B863F1D03C2320071F29B /* Main.storyboard */; };
 		182B86431D03C2320071F29B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182B86421D03C2320071F29B /* Assets.xcassets */; };
-		182B86461D03C2320071F29B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182B86441D03C2320071F29B /* LaunchScreen.storyboard */; };
 		182B86511D03C2320071F29B /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182B86501D03C2320071F29B /* CalculatorTests.m */; };
 		182B865C1D03C2320071F29B /* CalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182B865B1D03C2320071F29B /* CalculatorUITests.m */; };
+		182B866C1D03CB0A0071F29B /* CalculatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182B866B1D03CB0A0071F29B /* CalculatorViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +40,7 @@
 		182B863A1D03C2320071F29B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		182B863C1D03C2320071F29B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		182B863D1D03C2320071F29B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		182B86401D03C2320071F29B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		182B86421D03C2320071F29B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		182B86451D03C2320071F29B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		182B86471D03C2320071F29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		182B864C1D03C2320071F29B /* CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182B86501D03C2320071F29B /* CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
@@ -51,6 +48,7 @@
 		182B86571D03C2320071F29B /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182B865B1D03C2320071F29B /* CalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorUITests.m; sourceTree = "<group>"; };
 		182B865D1D03C2320071F29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182B866B1D03CB0A0071F29B /* CalculatorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CalculatorViewController.xib; path = Calculator/CalculatorViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +79,7 @@
 		182B862A1D03C2320071F29B = {
 			isa = PBXGroup;
 			children = (
+				182B866B1D03CB0A0071F29B /* CalculatorViewController.xib */,
 				182B86351D03C2320071F29B /* Calculator */,
 				182B864F1D03C2320071F29B /* CalculatorTests */,
 				182B865A1D03C2320071F29B /* CalculatorUITests */,
@@ -105,9 +104,7 @@
 				182B863A1D03C2320071F29B /* AppDelegate.m */,
 				182B863C1D03C2320071F29B /* ViewController.h */,
 				182B863D1D03C2320071F29B /* ViewController.m */,
-				182B863F1D03C2320071F29B /* Main.storyboard */,
 				182B86421D03C2320071F29B /* Assets.xcassets */,
-				182B86441D03C2320071F29B /* LaunchScreen.storyboard */,
 				182B86471D03C2320071F29B /* Info.plist */,
 				182B86361D03C2320071F29B /* Supporting Files */,
 			);
@@ -243,9 +240,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				182B86461D03C2320071F29B /* LaunchScreen.storyboard in Resources */,
+				182B866C1D03CB0A0071F29B /* CalculatorViewController.xib in Resources */,
 				182B86431D03C2320071F29B /* Assets.xcassets in Resources */,
-				182B86411D03C2320071F29B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,25 +302,6 @@
 			targetProxy = 182B86581D03C2320071F29B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		182B863F1D03C2320071F29B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				182B86401D03C2320071F29B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		182B86441D03C2320071F29B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				182B86451D03C2320071F29B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		182B865E1D03C2320071F29B /* Debug */ = {
